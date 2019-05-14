@@ -1,5 +1,11 @@
 package pl.piotrdawidziuk.repository;
 
-public class UserRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import pl.piotrdawidziuk.domain.User;
+
+public interface UserRepository extends CrudRepository<User, Long> {
+
+
 
 }
